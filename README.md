@@ -11,3 +11,21 @@ Customer churn prediction using an **Artificial Neural Network (ANN)** trained o
   - Final label: **Likely to churn / Not likely to churn**
 
 ---
+## 🧠 Model & Features
+The app uses these input features:
+- CreditScore
+- Geography (One-Hot Encoded)
+- Gender (Label Encoded)
+- Age
+- Tenure
+- Balance
+- NumOfProducts
+- HasCrCard
+- IsActiveMember
+- EstimatedSalary
+
+Prediction output:
+- `Churn Probability` (float)
+- Threshold: `> 0.5` → likely churn
+
+---

@@ -43,3 +43,44 @@ ANN-Classification-Churn/
 │── requirements.txt                # Dependencies
 │── runtime.txt                     # Runtime (useful for deployment)
 └── README.md
+
+---
+
+# 🧠 Model Architecture
+
+- Input Layer
+- Hidden Dense Layers (ReLU activation)
+- Output Layer (Sigmoid activation)
+- Loss Function: Binary Crossentropy
+- Optimizer: Adam
+
+Prediction:
+- Output > 0.5 → Likely to Churn
+- Output ≤ 0.5 → Not Likely to Churn
+
+---
+
+# 🚀 How to Run the Project
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Jyothsna-31862/ANN-Classification-Churn.git
+cd ANN-Classification-Churn
+```
+## 2️⃣ Create Virtual Environment (Recommended)
+
+### 🪟 Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+## 3️⃣ Install Dependencies
+```
+pip install -r requirements.txt
+```
+## 4️⃣ Run the Streamlit App
+```
+streamlit run app.py
+```
